@@ -1,92 +1,83 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refined Roast Coffee - Formulir Pesanan</title>
+    <title>Manchester United Merchandise & Tickets</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
+        header {
+            background-color: #A50027;
+            color: white;
+            text-align: center;
+            padding: 20px;
         }
         h1 {
-            text-align: center;
-            color: #333;
+            margin: 0;
         }
-        form {
-            background-color: #f4f4f4;
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
             padding: 20px;
+            background: white;
             border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        .form-group {
-            margin-bottom: 15px;
+        .merch, .tickets {
+            margin-bottom: 30px;
         }
-        .form-group label {
-            display: block;
-            font-weight: bold;
-            margin-bottom: 5px;
+        .merch img, .tickets img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
-        .form-group input, .form-group select {
-            width: 100%;
-            padding: 10px;
-            border-radius: 4px;
-            border: 1px solid #ddd;
-        }
-        .form-group button {
-            background-color: #5cb85c;
+        .button {
+            display: inline-block;
+            background-color: #A50027;
             color: white;
-            border: none;
             padding: 10px 20px;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
         }
-        .form-group button:hover {
-            background-color: #4cae4c;
+        .button:hover {
+            background-color: #900020;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Formulir Pesanan Refined Roast Coffee</h1>
-        <form id="orderForm">
-            <div class="form-group">
-                <label for="customerName">Nama Pelanggan:</label>
-                <input type="text" id="customerName" name="customerName" required>
-            </div>
-            <div class="form-group">
-                <label for="coffeeType">Jenis Kopi:</label>
-                <select id="coffeeType" name="coffeeType" required>
-                    <option value="">Pilih Kopi</option>
-                    <option value="Kopi Sumatran Vanilla Brew">Kopi Sumatran Vanilla Brew</option>
-                    <option value="Mocha Kopi Susu Cendol">Mocha Kopi Susu Cendol</option>
-                    <option value="Cold Brew Sachet Kopi Jahe">Cold Brew Sachet Kopi Jahe</option>
-                    <option value="Kopi Sachet Java Honey Delight">Kopi Sachet Java Honey Delight</option>
-                    <!-- Tambahkan opsi lainnya di sini -->
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="size">Ukuran:</label>
-                <select id="size" name="size" required>
-                    <option value="">Pilih Ukuran</option>
-                    <option value="Kecil">Kecil</option>
-                    <option value="Sedang">Sedang</option>
-                    <option value="Besar">Besar</option>
-                </select>
-            </div>
-            <div class="form-group">
-                <label for="specialInstructions">Instruksi Khusus:</label>
-                <input type="text" id="specialInstructions" name="specialInstructions">
-            </div>
-            <div class="form-group">
-                <button type="submit">Kirim Pesanan</button>
-            </div>
-        </form>
+
+<header>
+    <h1>Manchester United Merchandise & Tickets</h1>
+</header>
+
+<div class="container">
+    <div class="merch">
+        <h2>Official Merchandise</h2>
+        <p>Show your support with the latest Manchester United gear!</p>
+        <img src="https://mufc-live.cdn.scayle.cloud/images/032465a23bed509d050589e6439809a2.jpg?quality=75" alt="Manchester United Merch">
+        <p>Browse our collection of jerseys, scarves, and more.</p>
+        <a href="https://store.manutd.com/en/c/jerseys" class="button">Shop Now</a>
     </div>
+
+    <div class="tickets">
+        <h2>Match Tickets</h2>
+        <p>Don't miss the action! Get your tickets for the upcoming matches.</p>
+        <img src="https://example.com/tickets.jpg" alt="Manchester United Tickets">
+        <p>Experience the thrill of being at Old Trafford.</p>
+        <a href="https://www.livefootballtickets.com/english-premiership/manchester-united-tickets.html?cid=googleads&sid=WW_(en)_Leagues_English%20Premier%20League_Teams_(GA)&gad_source=1&gclid=EAIaIQobChMIjZ2h5-LsiAMVNalmAh2wMh5nEAAYAiAAEgKExvD_BwE" class="button">Buy Tickets</a>
+    </div>
+</div>
+
+<footer>
+    <p style="text-align:center; padding: 20px;">&copy; 2024 Manchester United. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
